@@ -13,7 +13,9 @@ increment.addEventListener("click",() => {
 
 
 decrement.addEventListener("click",() => {
+    if(counter>0){
     counter--;
+    }
     screen.innerText=counter;
     
 })
